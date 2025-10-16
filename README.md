@@ -1,6 +1,6 @@
 # 📸 时间戳图片命名器 · TimeShot Renamer
 
-> 基于 Jetpack Compose 的 Android 工具应用：按 **拍摄时间** 统一重命名你的照片，快速获得整洁、可排序的图库。
+> 你是否在为从其他 APP 保存的图片命名毫无规则而困扰？本 APP 可以批量按 **拍摄时间** 统一重命名你的照片，快速获得整洁、可排序的图库。
 
 <p align="left">
   <img alt="Android" src="https://img.shields.io/badge/Android-10%2B-%233DDC84"/>
