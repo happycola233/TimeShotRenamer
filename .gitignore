@@ -1,0 +1,81 @@
+# ===== Android & Gradle =====
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# 本地环境配置（不要提交）
+local.properties
+
+# 生成的发布包与中间产物
+*.apk
+*.aab
+*.ap_
+app/release/
+
+# KSP / Kotlin / Compose 缓存
+.kotlinc/
+.ksp/
+.kover/
+*.hprof
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+obj/
+
+# 测试与报告输出（可按需注释）
+**/outputs/
+**/reports/
+**/test-results/
+
+# Android Lint 临时文件
+**/lint/intermediates/
+**/lint/tmp/
+**/lint/output/
+
+# 设备截图与分析（Android Studio 默认目录）
+captures/
+
+# ===== IDE / OS =====
+# Android Studio / IntelliJ
+.idea/
+*.iml
+out/
+
+# VS Code（若使用）
+.vscode/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# 临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# ===== 密钥与签名（强烈建议不提交到仓库） =====
+*.jks
+*.keystore
+*.jceks
+*.p12
+*.pfx
+*.pem
+*.der
+*.crt
+*.cer
+*.key
+
+# ===== 可选：Firebase / Crashlytics（按需取消注释） =====
+# app/google-services.json
+# crashlytics-build.properties
+# fabric.properties
+
+# ===== 文档与截图（确保不被忽略） =====
+!docs/
+!Screenshots/

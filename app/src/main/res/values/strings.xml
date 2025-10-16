@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时间戳图片命名器</string>
+    <string name="title_app_bar">🪄 按时间戳重命名图片</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_settings">设置</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_navigate_back">返回</string>
+    <string name="settings_use_pure_black_label">纯黑深色模式</string>
+    <string name="settings_use_pure_black_description">在深色模式下使用纯黑色界面背景，以便在 AMOLED 屏幕上获得更好的对比度。</string>
+    <string name="settings_force_rename_label">关闭严格模式</string>
+    <string name="settings_force_rename_description">开启后，即使文件名已经符合规则，也允许用户按当前模板生成目标名称，便于统一命名。</string>
+    <string name="settings_name_format_label">目标命名格式</string>
+    <string name="settings_name_format_field_label">格式模板</string>
+    <string name="settings_name_format_support">可用占位符：yyyy（年份）、MM（月）、dd（日）、HH（24 小时制小时）、mm（分钟）、ss（秒）、SSS（毫秒）。其余字符会按原样保留。</string>
+    <string name="settings_name_format_example">示例：IMG_yyyyMMdd_HHmmss 表示以“IMG_”开头，后接年月日和时分秒。</string>
+    <string name="settings_name_format_suffix_hint">扩展名会自动保留，无需写在格式里。</string>
+    <string name="settings_name_format_preview">预览：%1$s</string>
+    <string name="settings_name_format_restore">恢复默认</string>
+    <string name="settings_format_error_empty">命名格式不能为空</string>
+    <string name="settings_format_error_invalid">无法解析该命名格式</string>
+
+    <string name="filter_title">筛选待重命名图片</string>
+    <string name="filter_summary">全部 %1$d 张，待处理 %2$d 张</string>
+
+    <string name="summary_success">成功重命名 %1$d 张图片</string>
+    <string name="summary_failed">重命名全部失败，共 %1$d 张</string>
+    <string name="summary_partial">部分成功：%1$d 成功 / %2$d 失败</string>
+
+    <string name="placeholder_title">暂无图片，可尝试刷新或调整筛选条件</string>
+    <string name="placeholder_action">重新扫描</string>
+
+    <string name="label_name_compliant">命名已符合规范</string>
+    <string name="label_name_same_as_target">目标名称与原文件名称相同</string>
+    <string name="label_capture_time">📸 %1$s</string>
+    <string name="label_capture_time_unknown">📸 无信息</string>
+    <string name="label_saved_time">💾 %1$s</string>
+    <string name="label_saved_time_unknown">💾 无信息</string>
+
+    <string name="status_pending">待处理</string>
+    <string name="status_running">重命名中</string>
+    <string name="status_done">已完成</string>
+    <string name="status_failed">失败</string>
+
+    <string name="fab_label_with_count">重命名 %1$d 张</string>
+    <string name="fab_label_default">重命名</string>
+    <string name="rename_arrow">-&gt; %1$s</string>
+
+    <string name="permission_message">需要读取图片权限才能扫描相册并预览重命名效果。</string>
+    <string name="permission_action">授予读取权限</string>
+
+    <string name="select_all">反向选择</string>
+    <string name="select_none">清空选择</string>
+    <string name="select_non_compliant">选择所有</string>
+    <string name="dialog_close">关闭</string>
+    <string name="settings_about_title">关于本 App</string>
+    <string name="settings_about_author">作者：肥宅水水呀（happycola233）</string>
+    <string name="settings_about_codex">本 App 使用 Codex 辅助开发</string>
+    <string name="settings_about_codex_icon_description">Codex 标识</string>
+</resources>
